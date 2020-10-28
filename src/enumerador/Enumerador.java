@@ -19,6 +19,7 @@ public class Enumerador {
         CHICO,
         MEDIANO,
         GRANDE
+        
     }
     
     public static void main(String[] args) {
@@ -39,6 +40,12 @@ public class Enumerador {
             default:
                 System.out.println("combo es incorrecto");
         }
+        
+        Viandas Menu = new Viandas("Empleados",120,Categoria.VEGANO);
+        
+        System.out.println(Menu.getCat());
+     
     }
+    
     
 }
